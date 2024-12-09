@@ -1,6 +1,7 @@
 package hu.szamalk;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 
 public class Kiirasok {
     private Character[] nev;
@@ -41,6 +42,19 @@ public class Kiirasok {
         System.out.println(kimenet);
     }
 
+    /*public void abcFeltolt() {
+        String kimenet = "";
+        for (int i = 0; i < abc.length; i++) {
+            int elem = abc[i];
+            int betu = (int) Math.random() * 10;
+            boolean kivalasztott = false;
+            if (abc[i] == betu) {
+                kivalasztott = true;
+            }
+
+        }
+    }*/
+
     public void abcKiIras(){
         String kimenet = "";
         for (int i = 0; i < 10; i++) {
@@ -51,5 +65,9 @@ public class Kiirasok {
             }
         }
         System.out.println(kimenet);
+    }
+
+    public void felhasznalt(){
+
     }
 }

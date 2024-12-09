@@ -5,7 +5,7 @@ import java.util.HashSet;
 
 public class Main {
     public static void main(String[] args) {
-
+        //f1
         /*Tabla tabla = new Tabla('#');
 
         System.out.println("Sima tábla:");
@@ -29,7 +29,9 @@ public class Main {
         System.out.println("Név és 10 betű:");
         Kiirasok kiirasok = new Kiirasok(szoveg,betuk);
         kiirasok.nevKiIras();
+        /*kiirasok.abcFeltolt();*/
         kiirasok.abcKiIras();
+
 
 
 
