@@ -5,6 +5,11 @@ public class Main {
 
         Tabla tabla = new Tabla('#');
 
+        System.out.println("Sima tábla:");
+        tabla.megjelenit();
+
+        System.out.println("Királynőkkel:");
+        tabla.elhelyez(4);
         tabla.megjelenit();
     }
 }

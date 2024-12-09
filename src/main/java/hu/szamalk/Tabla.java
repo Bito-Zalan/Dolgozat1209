@@ -26,10 +26,21 @@ public class Tabla {
     }
 
     public void elhelyez(int N){
+        char K;
+        int veletlenSor  = (int)(Math.random());
+        int veletlenOszlop = (int)(Math.random());
+        for (int i = 0; i < T.length; i++) {
+            for (int j = 0; j < T.length; j++) {
+                if (T[i][j] == '#'){
+                    for (int k = 0; k < N; k++) {
+                        this.uresCella = 'K';
+                    }
+                }
+            }
+
+        }
 
     }
-
-
 }
 
 
