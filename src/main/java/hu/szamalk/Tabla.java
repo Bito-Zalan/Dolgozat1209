@@ -4,7 +4,7 @@ public class Tabla {
     private char [][] T;
     private char uresCella;
 
-    /*public Tabla(char uresCella) {
+    public Tabla(char uresCella) {
         T = new char[8][8];
         this.uresCella = uresCella;
 
@@ -14,7 +14,7 @@ public class Tabla {
                 T[i][j] = uresCella;
             }
         }
-    }*/
+    }
 
     /*public void megjelenit(){
         for (int i = 0; i < T.length; i++) {
