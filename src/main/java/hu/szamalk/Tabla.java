@@ -25,6 +25,10 @@ public class Tabla {
         }
     }
 
+    public void elhelyez(int N){
+
+    }
+
 
 }
 
