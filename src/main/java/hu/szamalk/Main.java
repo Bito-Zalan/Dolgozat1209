@@ -1,15 +1,28 @@
 package hu.szamalk;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+
 public class Main {
     public static void main(String[] args) {
 
-        Tabla tabla = new Tabla('#');
+        /*Tabla tabla = new Tabla('#');
 
         System.out.println("Sima tábla:");
         tabla.megjelenit();
 
         System.out.println("Királynőkkel:");
         tabla.elhelyez(4);
-        tabla.megjelenit();
+        tabla.megjelenit();*/
+
+        //----------------------------------------------------------
+        //f3
+        String szoveg = "Bitó Zalán";
+        HashSet<Character> halmaz = new HashSet<>();
+        for (int i = 0; i < szoveg.length(); i++) {
+            halmaz.add(szoveg.charAt(i));
+        }
+        Kiirasok kiirasok = new Kiirasok(szoveg);
+        kiirasok.nevKiIras();
     }
 }
