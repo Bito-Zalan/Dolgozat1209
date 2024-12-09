@@ -22,7 +22,16 @@ public class Main {
         for (int i = 0; i < szoveg.length(); i++) {
             halmaz.add(szoveg.charAt(i));
         }
-        Kiirasok kiirasok = new Kiirasok(szoveg);
+        String betuk = "gawcaCpoKA";
+        for (int i = 0; i < 10; i++) {
+            halmaz.add(betuk.charAt(i));
+        }
+        System.out.println("Név és 10 betű:");
+        Kiirasok kiirasok = new Kiirasok(szoveg,betuk);
         kiirasok.nevKiIras();
+        kiirasok.abcKiIras();
+
+
+
     }
 }
